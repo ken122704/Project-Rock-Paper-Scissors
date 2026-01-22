@@ -13,6 +13,9 @@ Scores are updated and displayed in the console
 
 After 5 rounds, the final scores are compared and an overall winner is announced.
 
+
+
+
 🛠️ Technologies Used
 
 HTML
@@ -20,6 +23,9 @@ HTML
 JavaScript (Vanilla)
 
 Browser Console
+
+
+
 
 🎮 How to Play
 
@@ -35,12 +41,18 @@ Enter your choice (rock, paper, or scissors) when prompted.
 
 View round results and final scores in the console.
 
+
+
+
 📂 Project Structure
 rock-paper-scissors/
 │
 ├── index.html
 ├── script.js
 └── README.md
+
+
+
 
 🧠 Concepts Practiced
 
@@ -56,6 +68,9 @@ User input with prompt
 
 Random number generation using Math.random()
 
+
+
+
 🚀 Future Improvements
 
 Add input validation
@@ -65,6 +80,9 @@ Create a graphical user interface (GUI)
 Replace prompt with buttons
 
 Display scores on the page instead of the console
+
+
+
 
 📖 Acknowledgments
 
