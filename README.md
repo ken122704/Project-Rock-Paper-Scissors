@@ -1,90 +1,38 @@
-📌 Project Description
+# 🪨📄✂️ Rock Paper Scissors (GUI Edition)
 
-The game runs for 5 rounds.
-In each round:
+A modern, interactive version of the classic Rock Paper Scissors game, built with a clean graphical user interface.
 
-The human player is prompted to choose rock, paper, or scissors
+## 📌 Project Description
 
-The computer randomly selects a choice
+This project has evolved from a console-based script to a fully interactive web application. The game features:
 
-The winner of the round is determined based on standard Rock Paper Scissors rules
+- **Event-Driven Gameplay:** No more typing! Play by clicking interactive buttons.
+- **Real-time Scoreboard:** The score updates instantly on the screen as you play.
+- **First to Five:** The game automatically tracks progress and announces a winner once a player reaches 5 points.
+- **Modern UI:** A clean, responsive design with hover effects and a "Play Again" reset feature.
 
-Scores are updated and displayed in the console
+## 🛠️ Technologies Used
 
-After 5 rounds, the final scores are compared and an overall winner is announced.
+- **HTML5:** Semantic structure for the game interface.
+- **CSS3:** Modern styling using Flexbox, custom properties (variables), and transitions.
+- **JavaScript (Vanilla):** DOM manipulation, event listeners, and game logic.
 
+## 🎮 How to Play
 
+1. Open `index.html` in any modern web browser.
+2. Select your weapon by clicking **Rock**, **Paper**, or **Scissors**.
+3. The computer will make its move instantly.
+4. Watch the message box for round results and the scoreboard for your progress.
+5. The first player to reach **5 points** wins the match!
+6. Click **Play Again** to start a fresh game.
 
+## 📂 Project Structure
 
-🛠️ Technologies Used
-
-HTML
-
-JavaScript (Vanilla)
-
-Browser Console
-
-
-
-
-🎮 How to Play
-
-Open the project in a web browser.
-
-Open the Developer Tools:
-
-Right-click → Inspect → Console
-
-The game will start automatically.
-
-Enter your choice (rock, paper, or scissors) when prompted.
-
-View round results and final scores in the console.
-
-
-
-
-📂 Project Structure
+```text
 rock-paper-scissors/
 │
-├── index.html
-├── script.js
-└── README.md
-
-
-
-
-🧠 Concepts Practiced
-
-Functions
-
-Conditional logic
-
-Loops
-
-Global vs local scope
-
-User input with prompt
-
-Random number generation using Math.random()
-
-
-
-
-🚀 Future Improvements
-
-Add input validation
-
-Create a graphical user interface (GUI)
-
-Replace prompt with buttons
-
-Display scores on the page instead of the console
-
-
-
-
-📖 Acknowledgments
-
-This project was completed as part of
-The Odin Project – Foundations Course.
+├── index.html    # Game structure & UI layout
+├── style.css     # Modern styling & animations
+├── script.js     # Game logic & DOM manipulation
+└── README.md     # Project documentation
+```
