@@ -50,7 +50,7 @@ function playGame() {
     console.log(`Human: ${humanScore}`);
     console.log(`Computer: ${computerScore}`);
 
-    if (humanScore > computerScore) {
+    if (humanScore > computerScore) { 
         console.log('You are the overall winner!');
     } else if (computerScore > humanScore) {
         console.log('The computer is the overall winner!');
